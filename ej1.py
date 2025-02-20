@@ -1,0 +1,11 @@
+class persona:
+    def __init__(self, nombre, edad, profesion):
+        self.nombre = nombre
+        self.edad = edad
+        self.profesion = profesion
+    def presentarse(self):
+        print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años y soy {self.profesion}.")
+
+p = persona("Andrés", 18 , "la cabra")
+
+p.presentarse()
